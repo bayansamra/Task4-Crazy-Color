@@ -16,6 +16,7 @@ const hexaGenerator = (hexaCode) => {
 if(hexaCode){
     box.style.backgroundColor = hexaCode; //set box background color
     box.textContent= hexaCode;
+    
     return;
 }
 
@@ -32,6 +33,7 @@ for (let i = 0; i < 6; i++) {
 
 box.style.backgroundColor = randomGroup;
 boxcolor.textContent = randomGroup;
+input.value= randomGroup;
 };
 
 hexaGenerator();
